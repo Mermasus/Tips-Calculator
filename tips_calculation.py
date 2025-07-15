@@ -15,7 +15,7 @@ warnings.filterwarnings('ignore')
 
 df = pd.read_csv('tips.csv')
 df.head()
-df.shape()
+df.shape
 df.info()
 df.describe().T
 df.isnull().sum()
